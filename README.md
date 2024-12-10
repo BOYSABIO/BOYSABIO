@@ -4,10 +4,10 @@ This is a work in progress...
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-SpencerWood-blue)](https://www.linkedin.com/in/spencersvedawood/)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=BOYSABIO&color=blue)
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=BOYSABIO&theme=dark)
+![Visitor Count](https://komarev.com/ghpvc/?username=BOYSABIO&color=blue)  
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?username=BOYSABIO&theme=dark)  
 
 
 <!--
