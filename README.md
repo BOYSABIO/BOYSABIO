@@ -7,7 +7,6 @@ This is a work in progress...
 ![Visitor Count](https://komarev.com/ghpvc/?username=BOYSABIO&color=blue)  
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?username=BOYSABIO&theme=dark)  
 
 
 <!--
