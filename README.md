@@ -2,7 +2,7 @@
 
 This is a work in progress...
 
-[![LinkedIn](https://img.shields.io/badge/spencersvedawood)](https://www.linkedin.com/in/spencersvedawood/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SpencerWood-blue)](https://www.linkedin.com/in/spencersvedawood/)
 
 <!--
 **BOYSABIO/BOYSABIO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
