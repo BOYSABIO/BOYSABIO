@@ -1,13 +1,15 @@
 # WORK IN PROGRESS...
 
-<div style="background-color:rgb(0, 0, 0); padding: 20px; text-align: center; border-radius: 10px;">
+<div style="background-color:rgb(0, 0, 0); padding: 20px; border-radius: 10px;">
+  
+  <!-- Top GIF (Centered) -->
+  <p align="center">
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY3bGtobm1mNWY3bXptMDk5bjkzMWQxdHdpYXBwamVnNzY2NXp2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jpDcIzyvr3BRxOpZb5/giphy.gif" width="400px">
+  </p>
 
-  <!-- Top GIF -->
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY3bGtobm1mNWY3bXptMDk5bjkzMWQxdHdpYXBwamVnNzY2NXp2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jpDcIzyvr3BRxOpZb5/giphy.gif" width="400px">
+  <br>
 
-  <br><br>
-
-  <!-- Badges -->
+  <!-- Badges (Centered) -->
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=BOYSABIO&color=red" width="200">
     <img src="https://img.shields.io/badge/LinkedIn-SpencerWood-blue" width="260">
@@ -15,10 +17,11 @@
 
   <br>
 
-  <!-- Welcome Text -->
+  <!-- Welcome Text (Centered) -->
   <p align="center" style="font-size: 1.2em; font-weight: bold; color: White;">Welcome to my Github!</p>
 
 </div>
+
 
 ## About Me
 
