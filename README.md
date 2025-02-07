@@ -1,25 +1,67 @@
-## Hi there 👋
+# WORK IN PROGRESS...
 
-This is a work in progress...
+<div style="background-color:rgb(0, 0, 0); padding: 20px; text-align: center; border-radius: 10px;">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-SpencerWood-blue)](https://www.linkedin.com/in/spencersvedawood/)
+  <!-- Top GIF -->
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY3bGtobm1mNWY3bXptMDk5bjkzMWQxdHdpYXBwamVnNzY2NXp2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jpDcIzyvr3BRxOpZb5/giphy.gif" width="400px">
 
-![Visitor Count](https://komarev.com/ghpvc/?username=BOYSABIO&color=blue)  
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact)  
+  <br><br>
+
+  <!-- Badges -->
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=BOYSABIO&color=red" width="200">
+    <img src="https://img.shields.io/badge/LinkedIn-SpencerWood-blue" width="260">
+  </p>
+
+  <br>
+
+  <!-- Welcome Text -->
+  <p align="center" style="font-size: 1.2em; font-weight: bold; color: White;">Welcome to my Github!</p>
+
+</div>
+
+## About Me
+
+Hello. My name is Spencer. I am currently finishing my masters in data science and business analytics while working on some projects of my own. Specializing and exploring:
+
+- 🔹 **Languages**: Python, SQL, R-Script
+- 🔹 **Frameworks**: Scikit-learn
+- 🔹 **Tools & Technologies**: Pandas, NumPy, Matplotlib, Seaborn, Microsoft Azure, Power BI, Tableau, Looker Studio
+- 🔹 **Interests**: Machine Learning, Deep Learning, Data Engineering, Model Deployment, Generative AI
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BOYSABIO&theme=radical" alt="GitHub Streak Stats">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical" width="450px">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
+</p>
+
+
+
 
 
 <!--
-**BOYSABIO/BOYSABIO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div style="background: url('https://i.imgur.com/njPhhkc.gif') center/cover no-repeat; padding: 50px; text-align: center; border-radius: 10px;">
 
-Here are some ideas to get you started:
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWY3bGtobm1mNWY3bXptMDk5bjkzMWQxdHdpYXBwamVnNzY2NXp2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jpDcIzyvr3BRxOpZb5/giphy.gif" width="400px">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+  <br><br>
+
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=BOYSABIO&color=red" width="200">
+    <img src="https://img.shields.io/badge/LinkedIn-SpencerWood-blue" width="260">
+  </p>
+
+  <br>
+
+  <p align="center" style="font-size: 1.2em; font-weight: bold; color: white;">Welcome to my Github!</p>
+
+</div>
 -->
