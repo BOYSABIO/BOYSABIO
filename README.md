@@ -4,7 +4,7 @@
   
   <!-- Top GIF (Centered) -->
   <p align="center">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHY3cGM4azdpNGFvbm01ZXIxa3RrdmhpdWU5d254ZzRpZDRwZm84bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pJNwGd19GCdGJQkCee/giphy.gif" width="800">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTRwcjhrdzN1ZG5qbmMxdThxdDJ1ZmRmbWJtcG82ZmRkMzl3YjNobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mu2EL6LN8oN6teCNBy/giphy.gif" width="800" style="border-radius: 10px;">
   </p>
 
   <br>
@@ -21,6 +21,9 @@
   <p align="center" style="font-size: 1.2em; font-weight: bold; color: White;">Welcome to my Github!</p>
 
 </div>
+
+
+
 
 
 ## About Me
@@ -67,4 +70,25 @@ Hello. My name is Spencer. I am currently finishing my masters in data science a
   <p align="center" style="font-size: 1.2em; font-weight: bold; color: white;">Welcome to my Github!</p>
 
 </div>
+
+<div style="background-color:rgb(0, 0, 0); padding: 20px; border-radius: 10px;">
+  
+
+  <p align="center">
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHY3cGM4azdpNGFvbm01ZXIxa3RrdmhpdWU5d254ZzRpZDRwZm84bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pJNwGd19GCdGJQkCee/giphy.gif" width="800">
+  </p>
+
+  <br>
+
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=BOYSABIO&color=red" width="200">
+    <img src="https://img.shields.io/badge/LinkedIn-SpencerWood-blue" width="260">
+  </p>
+
+  <br>
+
+  <p align="center" style="font-size: 1.2em; font-weight: bold; color: White;">Welcome to my Github!</p>
+
+</div>
+
 -->
