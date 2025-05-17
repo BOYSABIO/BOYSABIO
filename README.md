@@ -28,12 +28,12 @@
 
 ## About Me
 
-Hello. My name is Spencer. I am currently finishing my masters in data science and business analytics while working on some projects of my own. Specializing and exploring:
+Hello. I'm Spencer, a data scientist currently completing a Master’s in Business Analytics & Data Science with a concentration in deep learning, computer vision, algorithmic trading, and MLOps. I am also working on some projects of my own. Specializing and exploring:
 
-- 🔹 **Languages**: Python, SQL, R-Script
-- 🔹 **Frameworks**: Scikit-learn
-- 🔹 **Tools & Technologies**: Pandas, NumPy, Matplotlib, Seaborn, Microsoft Azure, Power BI, Tableau, Looker Studio
-- 🔹 **Interests**: Machine Learning, Deep Learning, Data Engineering, Model Deployment, Generative AI
+- **Languages**: Python, SQL, R  
+- **Libraries & Frameworks**: scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, pandas, NumPy, Matplotlib, Seaborn  
+- **Platforms & Tools**: Streamlit, Power BI, Tableau, Looker Studio, Apache Spark, Databricks, Microsoft Azure  
+- **Specialties**: Machine Learning, Deep Learning, Time Series Forecasting, Computer Vision, Algorithmic Trading, MLOps, Generative AI
 
 ## GitHub Stats
 
