@@ -22,18 +22,62 @@
 
 </div>
 
+## Table of Contents
 
-
-
+- [About Me](#about-me)
+- [Projects](#projects)
+  - [Machine Learning Projects](#machine-learning-projects)
+  - [Data Science Projects](#data-science-projects)
+  - [Computer Vision Projects](#computer-vision-projects)
+  - [Algorithmic Trading Projects](#algorithmic-trading-projects)
+- [Notes & Learning](#notes--learning)
+- [GitHub Stats](#github-stats)
+- [Contact](#contact)
 
 ## About Me
 
-Hello. I'm Spencer, a data scientist currently completing a Master’s in Business Analytics & Data Science with a concentration in deep learning, computer vision, algorithmic trading, and MLOps. I am also working on some projects of my own. Specializing and exploring:
+Hello. I'm Spencer, a data scientist currently completing a Master's in Business Analytics & Data Science with a concentration in deep learning, computer vision, algorithmic trading, and MLOps. I am also working on some projects of my own. Specializing and exploring:
 
 - **Languages**: Python, SQL, R  
 - **Libraries & Frameworks**: scikit-learn, TensorFlow, Keras, PyTorch, XGBoost, pandas, NumPy, Matplotlib, Seaborn  
 - **Platforms & Tools**: Streamlit, Power BI, Tableau, Looker Studio, Apache Spark, Databricks, Microsoft Azure  
 - **Specialties**: Machine Learning, Deep Learning, Time Series Forecasting, Computer Vision, Algorithmic Trading, MLOps, Generative AI
+
+## Projects
+
+### Machine Learning Projects
+- **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** - Machine learning model to predict suitable habitats for huckleberry plants using Microsoft GridMET data and GIS analysis
+
+### Data Science Projects
+*Coming soon...*
+
+### Computer Vision Projects
+*Coming soon...*
+
+### Algorithmic Trading Projects
+*Coming soon...*
+
+## Notes & Learning
+
+Here are some repositories containing my study notes and learning materials:
+
+### Study Notes
+- **[Machine Learning Notes](link-to-repo)** - Comprehensive notes on ML algorithms, concepts, and implementations
+- **[Deep Learning Notes](link-to-repo)** - Neural networks, backpropagation, and advanced DL topics
+- **[Data Science Notes](link-to-repo)** - Statistics, data preprocessing, and analysis techniques
+
+### Course Materials
+- **[University Course Notes](link-to-repo)** - Notes from my Master's program in Business Analytics & Data Science
+- **[Online Course Notes](link-to-repo)** - Notes from various online courses and certifications
+
+### Research & Papers
+- **[Paper Summaries](link-to-repo)** - Summaries of important research papers in ML/DL
+- **[Algorithm Implementations](link-to-repo)** - Code implementations of algorithms from papers
+
+## Contact
+- **LinkedIn**: [Spencer Wood](https://www.linkedin.com/in/spencer-wood/)
+- **Email**: [Your email here]
+- **Portfolio**: [Your portfolio link here]
 
 ## GitHub Stats
 
