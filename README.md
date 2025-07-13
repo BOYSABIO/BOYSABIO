@@ -26,10 +26,10 @@
 
 - [About Me](#about-me)
 - [Projects](#projects)
-  - [Machine Learning Projects](#machine-learning-projects)
-  - [Data Science Projects](#data-science-projects)
-  - [Computer Vision Projects](#computer-vision-projects)
-  - [Algorithmic Trading Projects](#algorithmic-trading-projects)
+  - [Machine Learning & AI](#machine-learning--ai)
+  - [Computer Vision](#computer-vision)
+  - [Algorithmic Trading & Finance](#algorithmic-trading--finance)
+  - [Data Analysis & Visualization](#data-analysis--visualization)
 - [Notes & Learning](#notes--learning)
 - [GitHub Stats](#github-stats)
 - [Contact](#contact)
@@ -45,16 +45,16 @@ Hello. I'm Spencer, a data scientist currently completing a Master's in Business
 
 ## Projects
 
-### Machine Learning Projects
+### Machine Learning & AI
 - **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** - Machine learning model to predict suitable habitats for huckleberry plants using Microsoft GridMET data and GIS analysis
 
-### Data Science Projects
+### Computer Vision
 *Coming soon...*
 
-### Computer Vision Projects
+### Algorithmic Trading & Finance
 *Coming soon...*
 
-### Algorithmic Trading Projects
+### Data Analysis & Visualization
 *Coming soon...*
 
 ## Notes & Learning
