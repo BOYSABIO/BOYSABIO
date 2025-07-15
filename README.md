@@ -1,6 +1,6 @@
 <div align="center">
 
-# Spencer Wood
+
 
 **Data Scientist &nbsp;|&nbsp; Machine Learning Engineer &nbsp;|&nbsp; Business Analytics**  
 Master's in Business Analytics & Data Science  
