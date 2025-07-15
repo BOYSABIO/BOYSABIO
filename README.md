@@ -1,8 +1,12 @@
+<div align="center">
+
 # Spencer Wood
 
-<p align="center" style="font-size:1.5em; font-weight:bold;">Data Scientist | Machine Learning Engineer | Business Analytics</p>
-<p align="center">Master's in Business Analytics & Data Science</p>
-<p align="center">Productionizing ML & DL | MLOps | End-to-End Data Solutions</p>
+**Data Scientist &nbsp;|&nbsp; Machine Learning Engineer &nbsp;|&nbsp; Business Analytics**  
+Master's in Business Analytics & Data Science  
+Productionizing ML & DL &nbsp;|&nbsp; MLOps &nbsp;|&nbsp; End-to-End Data Solutions
+
+</div>
 
 <div style="background-color:rgb(0, 0, 0); padding: 20px; border-radius: 10px;">
   <!-- Top GIF (Centered) -->
