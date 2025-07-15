@@ -35,7 +35,7 @@
 
 ## About Me
 
-Hello! I'm **Spencer Wood**, a passionate Data Scientist and ML Engineer currently pursuing a Master's in Business Analytics & Data Science with concentrations in:
+Hello! I'm **Spencer Wood**, a data scientist and ML engineer with a completed Master's in Business Analytics & Data Science. My background spans:
 
 - **Deep Learning & Neural Networks**
 - **Computer Vision & Image Processing**
@@ -43,20 +43,19 @@ Hello! I'm **Spencer Wood**, a passionate Data Scientist and ML Engineer current
 - **MLOps & Production ML Systems**
 - **Reinforcement Learning**
 
-I specialize in building end-to-end machine learning solutions, from data preprocessing to model deployment, with a particular focus on real-world applications in finance, computer vision, and audio processing.
+Currently, my focus is on finalizing and productionizing all the projects I’ve started—bringing them to a full production level. I’m mastering the process of taking both machine learning and deep learning models from research to modular, scalable, production-ready pipelines. My GitHub is a representation of this journey and the breadth of work I’ve completed.
 
-### **What I Do:**
-- Develop and deploy production-ready ML models
-- Build scalable data pipelines and MLOps workflows
+### What I Do
+- Productionize and deploy ML/DL models in modular, scalable pipelines
+- Refactor and document codebases for maintainability and collaboration
+- Build end-to-end data workflows, from data ingestion to deployment
+- Design and implement MLOps best practices for robust, reproducible systems
 - Create interactive dashboards and data visualizations
-- Research and implement cutting-edge AI algorithms
-- Design and optimize deep learning architectures
 
-### **Currently Working On:**
-- Advanced computer vision models for real-time object detection
-- MLOps pipeline optimization and automation
-- Quantitative trading strategies using reinforcement learning
-- Audio processing and music recommendation systems
+### Currently Working On
+- Finalizing and bringing previous projects to production level
+- Cleaning up, refactoring, and documenting existing work
+- Focusing on new personal projects (some not yet public)
 
 ## Skills & Technologies
 
@@ -96,13 +95,12 @@ I specialize in building end-to-end machine learning solutions, from data prepro
 - **[CO2 Emissions Forecast Model](https://github.com/BOYSABIO/CO2-Emission-Forecast-Model)** - Time series forecasting model for global flight CO2 emissions using advanced statistical methods
 - **[Marketing Mix Model](https://github.com/BOYSABIO/Marketing-Mix-Model)** - Marketing attribution and ROI analysis using statistical modeling techniques for campaign optimization
 
-### Big Data & Audio Processing
+### Big Data Architecture
 - **[Audio Fingerprinting & Matching](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)** - Full-scale audio fingerprinting & matching system inspired by Shazam, with real-time audio processing capabilities
 
 ### Computer Vision
 - **[Screen Snooper Detector](https://github.com/BOYSABIO/Screen-Snooper-Detection)** - Real-time computer vision model to detect if someone is looking at your screen with live notifications
 - **[Pool Detection CNN](https://github.com/BOYSABIO/Pool-Detection-CNN)** - Advanced CNN model for detecting swimming pools from satellite imagery using both normal and oriented bounding boxes
-- **[Deep Learning Screen Detection](https://github.com/BOYSABIO/DeepLearning_screen_detection)** - Enhanced screen detection using deep learning techniques for improved accuracy
 
 ### Algorithmic Trading & Finance
 - **[Stock Price Prediction Dashboard](https://github.com/BOYSABIO/Stock-Analysis-Prediction-Dashboard)** - Real-time stock market analysis and prediction dashboard with interactive visualizations
@@ -112,7 +110,6 @@ I specialize in building end-to-end machine learning solutions, from data prepro
 
 ### Machine Learning Operations
 - **[MNIST MLOps](https://github.com/BOYSABIO/MLOps)** - End-to-end MLOps pipeline transforming a simple Jupyter notebook into a modular, scalable production system
-- **[MLOps Project](https://github.com/BOYSABIO/mlops_project)** - Advanced MLOps implementation with CI/CD, model versioning, and automated deployment
 
 ### Reinforcement Learning
 - **[Lunar Lander & Car Racing](https://github.com/BOYSABIO/DQN-DDQN-Gymnasium)** - Solving complex control problems using both DQN and DDQN algorithms in Gymnasium environments
@@ -123,13 +120,11 @@ Here are some repositories containing my study notes and learning materials:
 
 ### RoadMaps
 - **[Machine & Deep Learning Roadmap](https://github.com/BOYSABIO/Machine-Learning-Roadmap)** - Comprehensive roadmap covering ML algorithms, concepts, and practical implementations
-- **[Deep Learning Roadmap](https://github.com/BOYSABIO/Deep-Learning-Roadmap)** - Neural networks, backpropagation, and advanced deep learning topics
-- **[Cybersecurity Roadmap](https://github.com/BOYSABIO/Cybersecurity-Roadmap)** - Statistics, data preprocessing, and cybersecurity analysis techniques
 
 ### Course Materials
-- **[Undergraduate R Projects](https://github.com/BOYSABIO/undergraduate-r-projects)** - Notes & projects from undergraduate program in R programming
-- **[Undergraduate Python Projects](https://github.com/BOYSABIO/undergraduate-python-projects)** - Notes & projects from undergraduate program in Python
-- **[IE University Materials](https://github.com/BOYSABIO/IE-University)** - Academic projects and materials from IE University coursework
+- **[Undergraduate R](https://github.com/BOYSABIO/undergraduate-r-projects)** - Notes & projects from undergraduate program in R programming
+- **[Undergraduate Python](https://github.com/BOYSABIO/undergraduate-python-projects)** - Notes & projects from undergraduate program in Python
+- **[Masters Data Science](https://github.com/BOYSABIO/IE-University)** - Academic projects and materials from university coursework
 
 ## GitHub Stats
 
@@ -145,10 +140,6 @@ Here are some repositories containing my study notes and learning materials:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BOYSABIO&theme=radical" alt="GitHub Activity Graph">
-</p>
-
 ## Contact
 
 <div align="center">
@@ -161,6 +152,6 @@ Here are some repositories containing my study notes and learning materials:
   
   ![Profile Views](https://komarev.com/ghpvc/?username=BOYSABIO&color=red&style=flat-square)
   
-  *Feel free to reach out for collaborations, questions, or just to say hello! 👋*
+  *Feel free to reach out for collaborations, questions, or just to say hello!*
   
 </div>
