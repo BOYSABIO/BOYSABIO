@@ -2,9 +2,9 @@
 
 
 
-**Data Scientist &nbsp;|&nbsp; Machine Learning Engineer &nbsp;|&nbsp; Business Analytics**  
+**Data Science Graduate &nbsp;|&nbsp; ML Developer &nbsp;|&nbsp; IT Security**  
 Master's in Business Analytics & Data Science  
-Productionizing ML & DL &nbsp;|&nbsp; MLOps &nbsp;|&nbsp; End-to-End Data Solutions
+ML/DL Model Development &nbsp;|&nbsp; Big Data &nbsp;|&nbsp; MLOps &nbsp;|&nbsp; End-to-End Solutions
 
 </div>
 
@@ -36,32 +36,39 @@ Productionizing ML & DL &nbsp;|&nbsp; MLOps &nbsp;|&nbsp; End-to-End Data Soluti
 - [Notes and Learning](#notes-and-learning)
   - [RoadMaps](#roadmaps)
   - [Course Materials](#course-materials)
+  - [Cybersecurity](#cybersecurity)
 - [GitHub Stats](#github-stats)
+- [Hack the Box Stats](#hack-the-box-stats)
 - [Contact](#contact)
 
 ## About Me
 
-Hello! I'm **Spencer Wood**, a data scientist and ML engineer with a completed Master's in Business Analytics & Data Science. My background spans:
+Hello! I'm **Spencer Wood**, a data scientist and ML engineer with a Master's in Business Analytics & Data Science. My work focuses on:
 
 - **Deep Learning & Neural Networks**
 - **Computer Vision & Image Processing**
 - **Algorithmic Trading & Quantitative Finance**
 - **MLOps & Production ML Systems**
 - **Reinforcement Learning**
+- **Cybersecurity & Information Security** (currently learning)
 
-Currently, my focus is on finalizing and productionizing all the projects I’ve started—bringing them to a full production level. I’m mastering the process of taking both machine learning and deep learning models from research to modular, scalable, production-ready pipelines. My GitHub is a representation of this journey and the breadth of work I’ve completed.
+I work on building ML/DL models, developing solutions in big data environments, and taking projects from concept to production. My GitHub showcases my learning journey and the projects I've worked on, from research prototypes to production systems. I'm interested in both the research and development side of machine learning as well as deploying models at scale.
+
+I'm currently expanding into cybersecurity, studying for the CompTIA Security+ certification and learning through Hack the Box Academy. I'm also exploring how to apply data science techniques to cybersecurity challenges, combining my analytical background with security knowledge.
 
 ### What I Do
-- Productionize and deploy ML/DL models in modular, scalable pipelines
-- Refactor and document codebases for maintainability and collaboration
-- Build end-to-end data workflows, from data ingestion to deployment
-- Design and implement MLOps best practices for robust, reproducible systems
-- Create interactive dashboards and data visualizations
+- Build and develop ML/DL models from research to implementation
+- Work with big data technologies and distributed computing environments
+- Deploy models to production with MLOps practices
+- Develop end-to-end data workflows and pipelines
+- Create data visualizations and interactive dashboards
 
 ### Currently Working On
+- **CompTIA Security+ Certification** - Studying to pass the Security+ exam and build foundational cybersecurity knowledge
+- **Hack the Box Academy** - Actively working through courses, modules, and learning paths to develop cybersecurity skills
+- **Cybersecurity-Focused Data Science Projects** - Applying data science techniques to cybersecurity problems (in progress)
 - Finalizing and bringing previous projects to production level
 - Cleaning up, refactoring, and documenting existing work
-- Focusing on new personal projects (some not yet public)
 
 ## Skills and Technologies
 
@@ -92,6 +99,10 @@ Currently, my focus is on finalizing and productionizing all the projects I’ve
 ### **MLOps and Experiment Tracking**
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+
+### **Cybersecurity**
+![CompTIA Security+](https://img.shields.io/badge/CompTIA%20Security%2B-0078D4?style=for-the-badge&logo=comptia&logoColor=white)
+![Hack the Box](https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
 
 ## Projects
 
@@ -132,6 +143,13 @@ Here are some repositories containing my study notes and learning materials:
 - **[Undergraduate Python](https://github.com/BOYSABIO/undergraduate-python-projects)** - Notes & projects from undergraduate program in Python
 - **[Masters Data Science](https://github.com/BOYSABIO/IE-University)** - Academic projects and materials from university coursework
 
+### Cybersecurity
+- **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/security-plus-notes)** - *In progress - Study notes and materials for CompTIA Security+ certification preparation*
+- **[OverTheWire Practice Notes](https://github.com/BOYSABIO/overthewire-notes)** - *In progress - Notes and solutions from OverTheWire wargames practice*
+- **[Linux Journey Learning Notes](https://github.com/BOYSABIO/linux-journey-notes)** - *In progress - Learning notes from Linux Journey and Linux system administration*
+
+*Note: These repositories are currently being organized from a larger private repository. Content is being separated and refined for better structure and sharing. Some materials (such as personal system configurations) will remain private for security reasons.*
+
 ## GitHub Stats
 
 <p align="center">
@@ -146,6 +164,20 @@ Here are some repositories containing my study notes and learning materials:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
 </p>
 
+## Hack the Box Stats
+
+<p align="center">
+  <strong>Coming soon</strong>
+</p>
+
+<p align="center">
+  <strong>Hack the Box Academy Profile:</strong> <a href="https://academy.hackthebox.com/profile/knothopper" target="_blank">knothopper</a>
+</p>
+
+<p align="center">
+  <em>Currently focusing on Hack the Box Academy</em>
+</p>
+
 ## Contact
 
 <div align="center">
@@ -158,6 +190,6 @@ Here are some repositories containing my study notes and learning materials:
   
   ![Profile Views](https://komarev.com/ghpvc/?username=BOYSABIO&color=red&style=flat-square)
   
-  *Feel free to reach out for collaborations, questions, or just to say hello!*
+
   
 </div>
