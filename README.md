@@ -171,7 +171,7 @@ Here are some repositories containing my study notes and learning materials:
 </p>
 
 <p align="center">
-  <strong>Hack the Box Academy Profile:</strong> <a href="https://academy.hackthebox.com/profile/knothopper" target="_blank">knothopper</a>
+  <strong>Hack the Box Academy Profile:</strong> <a href="https://app.hackthebox.com/profile/1669749" target="_blank">knothopper</a>
 </p>
 
 <p align="center">
