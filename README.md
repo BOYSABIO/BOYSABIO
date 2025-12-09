@@ -164,6 +164,9 @@ Here are some repositories containing my study notes and learning materials:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
 </p>
 
+## Try Hack Me Stats
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2326428" style='border:none;'></iframe>
+
 ## Hack the Box Stats
 
 <p align="center">
