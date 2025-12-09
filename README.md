@@ -165,7 +165,7 @@ Here are some repositories containing my study notes and learning materials:
 </p>
 
 ## Try Hack Me Stats
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2326428" style='border:none;'></iframe>
+<img src="https://tryhackme-badges.s3.amazonaws.com/BOYSABIO.png" alt="Your Image Badge" />
 
 ## Hack the Box Stats
 
