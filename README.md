@@ -1,7 +1,5 @@
 <div align="center">
 
-
-
 **Data Science Graduate &nbsp;|&nbsp; ML Developer &nbsp;|&nbsp; IT Security**  
 Master's in Business Analytics & Data Science  
 ML/DL Model Development &nbsp;|&nbsp; Big Data &nbsp;|&nbsp; MLOps &nbsp;|&nbsp; End-to-End Solutions
@@ -9,12 +7,14 @@ ML/DL Model Development &nbsp;|&nbsp; Big Data &nbsp;|&nbsp; MLOps &nbsp;|&nbsp;
 </div>
 
 <div style="background-color:rgb(0, 0, 0); padding: 20px; border-radius: 10px;">
+
   <!-- Top GIF (Centered) -->
   <p align="center">
     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTRwcjhrdzN1ZG5qbmMxdThxdDJ1ZmRmbWJtcG82ZmRkMzl3YjNobCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mu2EL6LN8oN6teCNBy/giphy.gif" width="800" style="border-radius: 10px;">
   </p>
   <!-- Welcome Text (Centered) -->
   <p align="center" style="font-size: 1.2em; font-weight: bold; color: White;">Welcome to my Github!</p>
+
 </div>
 
 ## Quick Links
@@ -38,7 +38,7 @@ ML/DL Model Development &nbsp;|&nbsp; Big Data &nbsp;|&nbsp; MLOps &nbsp;|&nbsp;
   - [Course Materials](#course-materials)
   - [Cybersecurity](#cybersecurity)
 - [GitHub Stats](#github-stats)
-- [Hack the Box Stats](#hack-the-box-stats)
+- [Cybersecurity Stats](#cybersecurity-stats)
 - [Contact](#contact)
 
 ## About Me
@@ -164,22 +164,16 @@ Here are some repositories containing my study notes and learning materials:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
 </p>
 
-## Try Hack Me Stats
-<img src="https://tryhackme-badges.s3.amazonaws.com/BOYSABIO.png" alt="Your Image Badge" />
+## Cybersecurity Stats
 
-## Hack the Box Stats
+**TryHackMe:**  
+<img src="https://tryhackme-badges.s3.amazonaws.com/BOYSABIO.png" alt="TryHackMe Badge" />
 
-<p align="center">
-  <strong>Coming soon</strong>
-</p>
+**Hack The Box Academy:**  
+Profile: [HTB LABS](https://app.hackthebox.com/public/users/1669749)  
+StudentID: HTB-E98A7D0EFC    
+(Currently focused on Academy learning paths)
 
-<p align="center">
-  <strong>Hack the Box Academy Profile:</strong> <a href="https://app.hackthebox.com/profile/1669749" target="_blank">knothopper</a>
-</p>
-
-<p align="center">
-  <em>Currently focusing on Hack the Box Academy</em>
-</p>
 
 ## Contact
 
@@ -192,7 +186,5 @@ Here are some repositories containing my study notes and learning materials:
   **LinkedIn**: [Spencer Wood](https://www.linkedin.com/in/spencersvedawood/)
   
   ![Profile Views](https://komarev.com/ghpvc/?username=BOYSABIO&color=red&style=flat-square)
-  
-
   
 </div>
