@@ -201,7 +201,7 @@ Here are some repositories containing my study notes and learning materials:
 
 ### Cybersecurity
 
-- **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/security-plus-notes)** – *In progress* – exam prep and security fundamentals  
+- **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/CompTIA-SecurityPlus-Notes/tree/main)** – *In progress* – exam prep and security fundamentals  
 - **[OverTheWire Practice Notes](https://github.com/BOYSABIO/overthewire-notes)** – *In progress* – wargame walkthroughs and exploitation notes  
 - **[Linux Journey Learning Notes](https://github.com/BOYSABIO/linux-journey-notes)** – *In progress* – Linux and systems learning notes  
 
