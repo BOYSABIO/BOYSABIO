@@ -96,6 +96,10 @@ These are good entry points if you want to see how I think about systems, data, 
 
 <br>
 
+### Cybersecurity
+- **[ML Network Monitoring & Traffic Analysis Lab](https://github.com/BOYSABIO/Network-Monitoring)** - ML / DL network monitor. To be implemented in homelab and improved with realtime data
+- **[Homelab](https://github.com/BOYSABIO/homelab)** - A deliberately architected homelab built layer by layer around two core pillars: cybersecurity and data science
+
 ### Machine Learning and AI
 
 - **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** – Environmental ML model predicting suitable habitats for huckleberry plants using Microsoft GridMET climate data  
