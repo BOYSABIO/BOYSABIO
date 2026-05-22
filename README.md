@@ -2,10 +2,10 @@
 
 ## Spencer Wood
 
-**Applied Data Scientist & ML Engineer**  
-AI · Data · Security · Systems  
+**ML Engineer & Builder**  
+Deep Learning · Agentic AI Systems · Security Analytics · Data Engineering
 
-Master’s in Business Analytics & Data Science  
+Master's in Business Analytics & Data Science — IE Madrid
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencersvedawood/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:spencer@jsveda.com)
@@ -16,129 +16,143 @@ Master’s in Business Analytics & Data Science
 
 ## About
 
-I’ve been taking things apart since I was a kid. I fried the motherboard of my first PC at 10, rebuilt it out of necessity, and that cycle of breaking → understanding → rebuilding never really stopped.
+I've been taking things apart since I was a kid. I fried the motherboard of my first PC at 10, rebuilt it out of necessity, and that loop — break → understand → rebuild — never really stopped.
 
-Academically and professionally I’ve always been on the **AI / ML / deep learning / data science** path—research projects, capstones, and production‑style ML systems. In parallel, **security has been a long‑standing obsession**: networks, systems, and how things fail in the real world. Now I’m deliberately merging the two: using data and ML to understand infrastructure, monitor networks, and reason about risk.
+At some point my ML and deep learning work started pulling toward the same place as my obsession with networks and systems. So I built a homelab the right way: OPNsense firewall, proper VLANs, Proxmox virtualization, isolated malware environments. Not to configure tools others built — to understand how infrastructure actually works from the inside. That gave me real data. Then I applied ML and DL to it: network traffic classification, multi-class attack detection, anomaly signals from flow features. Then I built a LangGraph agent to reason over those signals at scale. That's the stack I work in now — real infrastructure at the bottom, ML/DL in the middle, agentic reasoning on top.
 
-I’ve spent roughly half my life in the US and half across Europe, which forced me to adapt to new environments and think in systems. Today I work where **AI, data, markets, and security collide**—building end‑to‑end ML and data systems, instrumenting infrastructure, and looking for “beneficial accidents” that reveal new signals or mechanics to exploit.
+Alongside that I shipped an AI-powered product from scratch — a language learning platform — from idea to live deployment, currently in pilot with real users.
 
-I care about solutions that **scale**, that solve real problems I run into, and that push me toward technical mastery. I’ll usually take the harder path first; understanding the long route makes the shortcuts obvious.
+I spent roughly half my life in the US and half in Europe, which forced me to adapt fast and think in systems. I care about solutions that close real feedback loops and that push toward technical mastery. I'll usually take the harder path first — understanding the long route makes the shortcuts obvious.
 
 <table>
   <tr>
     <td valign="top" width="50%">
 
-<b>What I work on</b>
+**What I build**
 
-- Applied ML & MLOps – turning research notebooks into maintainable, production‑style systems  
-- Data & infrastructure – pipelines, observability, streaming / real‑time processing  
-- Security‑adjacent analytics – network visibility, traffic analysis, security telemetry  
-- Quant & markets work – market microstructure, simulation, risk / volatility modeling  
+- ML & deep learning pipelines — from raw signals to production inference
+- Agentic systems — multi-step LLM-backed reasoning loops (LangGraph)
+- Security analytics infrastructure — network monitoring, traffic classification, alert triage
+- Data platforms — lakehouse architecture, streaming, observability
 
     </td>
     <td valign="top" width="50%">
 
-<b>Current focus</b>
+**Current focus**
 
-- Operating and evolving a personal **network monitoring & observability lab**  
-- Studying for **CompTIA Security+** and turning long‑time security interest into a formal specialty  
-- Applying ML and data science to infrastructure / security‑adjacent data (network traffic, logs, telemetry)  
-- Refactoring older academic projects into production‑quality systems  
+- SOC Triage Agent — LangGraph multi-step agent for security alert reasoning
+- Network Monitoring → SOC Agent — end-to-end security ML pipeline
+- AI product development — language learning platform in live pilot
+- Expanding agentic AI and multi-step reasoning depth
 
     </td>
   </tr>
 </table>
 
-**Skills (high‑level)**  
-Languages: Python, R, SQL · ML / AI: PyTorch, TensorFlow, scikit‑learn, Keras · Data & MLOps: MLflow, Weights & Biases, Docker · Big Data: Spark, Databricks, Kafka, NiFi · Systems & Security: Linux, networking, traffic analysis, monitoring & logging · Visualization: Streamlit, Power BI, Tableau
+**Stack**  
+Python, R, SQL · PyTorch, TensorFlow, scikit-learn, LangChain, LangGraph · MLflow, W&B, Docker · PySpark, Databricks, Kafka · Linux, networking, Zeek, Wireshark
 
 ---
 
-## Start here (Featured Projects)
+## Featured projects
 
-These are good entry points if you want to see how I think about systems, data, and security.
+### The Security ML Stack — Homelab → Network Monitoring → SOC Triage Agent
+**Infrastructure · ML/DL · Agentic Reasoning — built layer by layer**
 
-### Network Monitoring & Traffic Analysis Lab
-**Personal systems & security project**
+Three connected projects that form a complete, end-to-end system. Each layer was built intentionally — not as a portfolio exercise, but to actually run in real infrastructure and solve a real problem.
 
-- Home lab for network visibility, logging, and observability  
-- Focused on packet capture, enrichment, and analysis pipelines  
-- Foundation for future detection, threat hunting, and security analytics work  
+**Layer 1 — [Homelab](https://github.com/BOYSABIO/homelab)**  
+OPNsense firewall, VLANs, Proxmox hypervisor, isolated malware testing environments, IDS/IPS. Built from scratch to understand how infrastructure works from the inside — not to configure other people's tools.
 
-[🔗 Network-Monitoring](https://github.com/BOYSABIO/Network-Monitoring)
+**Layer 2 — [Network Monitoring & Traffic Analysis](https://github.com/BOYSABIO/Network-Monitoring)**  
+PCAP capture → flow feature extraction → ML/DL classifier (~80% accuracy on benign/malicious classification, multi-class attack detection) → clean ndjson output. Runs against the homelab. Data pipeline feeds Layer 3.
+
+**Layer 3 — SOC Triage Agent** *(private — in progress)*  
+LangGraph multi-step agent. Ingests ndjson alerts from Layer 2, uses an LLM-backed reasoning loop to look up context, enrich, and produce structured triage decisions — reducing analyst toil on L1 work.
+
+Three layers. Real infrastructure. Real data. Real inference.
 
 ---
 
 ### Huckleberry Habitat Suitability Model (Microsoft Capstone)
-**Environmental ML + MLOps + creative problem framing**
+**Enterprise ML + creative problem framing**
 
-- Predicts suitable huckleberry habitat using Microsoft GridMET climate data  
-- Built as a Microsoft‑supported capstone; awarded **honors** for scope and impact  
-- Includes a full pipeline from data processing to model training and deployment  
+Challenge: *"Monetize Microsoft GridMET climate data."* Delivered a feasibility study predicting huckleberry habitat suitability for ecological and commercial stakeholders. ~450GB of environmental and location data, >90% accuracy, versioned artifacts, confidence outputs, and interactive habitat maps.
+
+Awarded **honors**. Dean's List capstone.
 
 [🔗 Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)
 
 ---
 
-### End‑to‑End MLOps Pipeline (MNIST)
-**Engineering‑heavy ML system**
+### Modular MLOps Pipeline (MNIST)
+**Engineering-heavy ML system**
 
-- Modularized a simple MNIST notebook into a full ML pipeline  
-- Strong focus on experiment tracking, configuration, and reproducibility  
-- Shows how I think about maintainable, deployment‑ready ML systems  
+Refactored a simple MNIST CNN notebook into a full production-style ML pipeline. The point isn't MNIST — it's the engineering: modular config management, experiment tracking with MLflow, REST API, CI/CD, Docker. Shows how I think about maintainable, deployment-ready systems.
 
-[🔗 MNIST MLOps](https://github.com/BOYSABIO/MLOps)
+[🔗 MLOps](https://github.com/BOYSABIO/MLOps)
+
+---
+
+### Audio Fingerprinting & Matching Pipeline
+**Large-scale distributed system**
+
+Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver → Gold lakehouse architecture on Databricks. Extracts audio from YouTube, fingerprints via Librosa, hashes and matches query clips against a song database with confidence scores.
+
+[🔗 Audio Fingerprinting & Matching Pipeline](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)
 
 ---
 
 <details>
-  <summary><b>📂 Projects by domain (full catalogue)</b></summary>
+  <summary><b>📂 Full project catalogue by domain</b></summary>
 
 <br>
 
-### Cybersecurity
-- **[ML Network Monitoring & Traffic Analysis Lab](https://github.com/BOYSABIO/Network-Monitoring)** - ML / DL network monitor. To be implemented in homelab and improved with realtime data
-- **[Homelab](https://github.com/BOYSABIO/homelab)** - A deliberately architected homelab built layer by layer around two core pillars: cybersecurity and data science
+### Security & Infrastructure
 
-### Machine Learning and AI
+- **[Homelab](https://github.com/BOYSABIO/homelab)** — OPNsense, VLANs, Proxmox, IDS/IPS, isolated malware testing. Foundation for the security ML stack.
+- **[Network Monitoring & Traffic Analysis Lab](https://github.com/BOYSABIO/Network-Monitoring)** — PCAP → flow features → ML/DL classifier → ndjson; feeds SOC Triage Agent
+- **SOC Triage Agent** *(private — in progress)* — LangGraph multi-step agent for security alert triage; consumes Network Monitoring output
 
-- **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** – Environmental ML model predicting suitable habitats for huckleberry plants using Microsoft GridMET climate data  
-- **[Predicting Hotel Cancellations](https://github.com/BOYSABIO/Hotel-Cancellations-Prediction-Model)** – Ensemble ML models to predict hotel booking cancellations with feature engineering and model optimization  
-- **[CO₂ Emissions Forecast Model](https://github.com/BOYSABIO/CO2-Emission-Forecast-Model)** – Time‑series forecasting model for global flight CO₂ emissions using advanced statistical methods  
-- **[Marketing Mix Model](https://github.com/BOYSABIO/Marketing-Mix-Model)** – Marketing attribution and ROI analysis using statistical modeling techniques for campaign optimization  
+### Machine Learning & AI
 
-### Big Data Architecture
+- **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** — Microsoft-supported capstone; environmental ML predicting huckleberry habitat from ~450GB of GridMET climate data. Honors.
+- **[Predicting Hotel Cancellations](https://github.com/BOYSABIO/Hotel-Cancellations-Prediction-Model)** — Ensemble ML for booking cancellation prediction with feature engineering and optimization
+- **[CO₂ Emissions Forecast Model](https://github.com/BOYSABIO/CO2-Emission-Forecast-Model)** — Time-series forecasting of global flight CO₂ emissions using advanced statistical methods
+- **[Marketing Mix Model](https://github.com/BOYSABIO/Marketing-Mix-Model)** — Marketing attribution and ROI analysis using statistical modeling
 
-- **[Audio Fingerprinting & Matching](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)** – Full‑scale audio fingerprinting & matching system inspired by Shazam, with real‑time audio processing capabilities  
+### Big Data & Data Engineering
+
+- **[Audio Fingerprinting & Matching](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)** — Shazam-inspired system; Bronze → Silver → Gold lakehouse on Databricks + PySpark
+
+### MLOps
+
+- **[MNIST MLOps Pipeline](https://github.com/BOYSABIO/MLOps)** — Production-style ML pipeline: Docker, MLflow, CI/CD, REST API, modular config management
 
 ### Computer Vision
 
-- **[Screen Snooper Detector](https://github.com/BOYSABIO/Screen-Snooper-Detection)** – Real‑time computer vision model to detect if someone is looking at your screen with live notifications  
-- **[Pool Detection CNN](https://github.com/BOYSABIO/Pool-Detection-CNN)** – Advanced CNN model for detecting swimming pools from satellite imagery using both normal and oriented bounding boxes  
+- **[Pool Detection CNN](https://github.com/BOYSABIO/Pool-Detection-CNN)** — YOLO-based object detection on satellite imagery; includes oriented bounding boxes (OBB) to fit pools of any shape or angle
+- **[Screen Snooper Detector](https://github.com/BOYSABIO/Screen-Snooper-Detection)** — Real-time CV model detecting if someone is looking at your screen; multi-person detection with false-positive filtering
 
-### Algorithmic Trading and Finance
+### Algorithmic Trading & Finance
 
-- **[Stock Price Prediction Dashboard](https://github.com/BOYSABIO/Stock-Analysis-Prediction-Dashboard)** – Real‑time stock market analysis and prediction dashboard with interactive visualizations  
-- **[Asset Price Path Simulator](https://github.com/BOYSABIO/Asset-Price-Path-Sim)** – Financial modeling simulation of asset price movements using Bachelier & Samuelson models  
-- **[Order Book Simulation](https://github.com/BOYSABIO/orderbook-simulation)** – High‑performance limit order book simulation using real LOB messages for market microstructure analysis  
-- **[ARCH/GARCH CrowdStrike](https://github.com/BOYSABIO/OM-group-project-2)** – Volatility modeling techniques applied to CrowdStrike stock using ARCH/GARCH models  
-
-### Machine Learning Operations
-
-- **[MNIST MLOps](https://github.com/BOYSABIO/MLOps)** – End‑to‑end MLOps pipeline transforming a simple Jupyter notebook into a modular, scalable production system  
+- **[Stock Price Prediction Dashboard](https://github.com/BOYSABIO/Stock-Analysis-Prediction-Dashboard)** — Real-time stock analysis and prediction dashboard (Streamlit)
+- **[Asset Price Path Simulator](https://github.com/BOYSABIO/Asset-Price-Path-Sim)** — Asset price simulation using Bachelier & Samuelson models
+- **[Order Book Simulation](https://github.com/BOYSABIO/orderbook-simulation)** — High-performance limit order book simulation using real LOB messages for market microstructure analysis
+- **[ARCH/GARCH Volatility Modeling](https://github.com/BOYSABIO/OM-group-project-2)** — Volatility models applied to CrowdStrike stock data
 
 ### Reinforcement Learning
 
-- **[Lunar Lander & Car Racing](https://github.com/BOYSABIO/DQN-DDQN-Gymnasium)** – DQN and DDQN applied to Gymnasium control tasks  
+- **[Lunar Lander & Car Racing](https://github.com/BOYSABIO/DQN-DDQN-Gymnasium)** — DQN and DDQN agents on Gymnasium control tasks
 
 </details>
 
 ---
 
+## Skill stack
 
-## Skill Stack
 <details>
-  <summary><b>📂 Detailed skill stack with badges</b></summary>
+  <summary><b>📂 Languages, frameworks, and tools</b></summary>
 
 <br>
 
@@ -148,37 +162,36 @@ These are good entry points if you want to see how I think about systems, data, 
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Machine Learning and AI
+### Machine Learning & Deep Learning
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 
-### Data and Visualization
+### Agentic AI & LLMs
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+
+### MLOps & Experiment Tracking
+
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Weights & Biases](https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Data & Infrastructure
+
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-0081C6?style=for-the-badge&logo=apache-nifi&logoColor=white)
+
+### Visualization
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-
-### Cloud and Infrastructure
-
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-0081C6?style=for-the-badge&logo=apache-nifi&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-
-### MLOps and Experiment Tracking
-
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
-
-### Cybersecurity
-
-![CompTIA Security+](https://img.shields.io/badge/CompTIA%20Security%2B-0078D4?style=for-the-badge&logo=comptia&logoColor=white)
-![Hack the Box](https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
 
 </details>
 
@@ -191,25 +204,11 @@ These are good entry points if you want to see how I think about systems, data, 
 
 <br>
 
-Here are some repositories containing my study notes and learning materials:
-
-### Roadmaps
-
-- **[Machine & Deep Learning Roadmap](https://github.com/BOYSABIO/Machine-Learning-Roadmap)** – Comprehensive roadmap covering ML algorithms, concepts, and practical implementations  
-
-### Course materials
-
-- **[Undergraduate R](https://github.com/BOYSABIO/undergraduate-r-projects)** – Notes & projects from undergraduate program in R programming  
-- **[Undergraduate Python](https://github.com/BOYSABIO/undergraduate-python-projects)** – Notes & projects from undergraduate program in Python  
-- **[Masters Data Science](https://github.com/BOYSABIO/IE-University)** – Academic projects and materials from university coursework  
-
-### Cybersecurity
-
-- **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/CompTIA-SecurityPlus-Notes/tree/main)** – *In progress* – exam prep and security fundamentals  
-- **[OverTheWire Practice Notes](https://github.com/BOYSABIO/overthewire-notes)** – *In progress* – wargame walkthroughs and exploitation notes  
-- **[Linux Journey Learning Notes](https://github.com/BOYSABIO/linux-journey-notes)** – *In progress* – Linux and systems learning notes  
-
-*Note: These repositories are currently being organized from a larger private repository. Content is being separated and refined for better structure and sharing. Some materials (such as personal system configurations) will remain private for security reasons.*
+- **[Machine & Deep Learning Roadmap](https://github.com/BOYSABIO/Machine-Learning-Roadmap)** — Topic-by-topic ML mastery reference
+- **[Masters Data Science — IE University](https://github.com/BOYSABIO/IE-University)** — Academic projects and coursework
+- **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/CompTIA-SecurityPlus-Notes)** — *In progress*
+- **[OverTheWire Practice Notes](https://github.com/BOYSABIO/overthewire-notes)** — *In progress*
+- **[Linux Journey Notes](https://github.com/BOYSABIO/linux-journey-notes)** — *In progress*
 
 </details>
 
@@ -218,7 +217,7 @@ Here are some repositories containing my study notes and learning materials:
 ## GitHub activity
 
 <details>
-  <summary><b>📂 GitHub activity stats</b></summary>
+  <summary><b>📂 Stats</b></summary>
 
 <br>
 
@@ -238,33 +237,12 @@ Here are some repositories containing my study notes and learning materials:
 
 ---
 
-## Security platforms stats
-
-<details>
-  <summary><b>📂 Security platforms stats</b></summary>
-
-<br>
-
-**TryHackMe**  
-<img src="https://tryhackme-badges.s3.amazonaws.com/BOYSABIO.png" alt="TryHackMe Badge" />
-
-**Hack The Box Academy**  
-Profile: https://app.hackthebox.com/profile/1669749  
-Currently focused on Academy learning paths  
-
-</details>
-
----
-
-## Contact
-
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencersvedawood/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:spencer@jsveda.com)
 
-**Email:** spencer@jsveda.com  
-**LinkedIn:** [Spencer Wood](https://www.linkedin.com/in/spencersvedawood/)
+**Email:** spencer@jsveda.com · **LinkedIn:** [Spencer Wood](https://www.linkedin.com/in/spencersvedawood/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=BOYSABIO&color=red&style=flat-square)
 
