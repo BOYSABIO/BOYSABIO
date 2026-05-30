@@ -204,11 +204,8 @@ Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver
 
 <br>
 
-- **[Machine & Deep Learning Roadmap](https://github.com/BOYSABIO/Machine-Learning-Roadmap)** — Topic-by-topic ML mastery reference
 - **[Masters Data Science — IE University](https://github.com/BOYSABIO/IE-University)** — Academic projects and coursework
 - **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/CompTIA-SecurityPlus-Notes)** — *In progress*
-- **[OverTheWire Practice Notes](https://github.com/BOYSABIO/overthewire-notes)** — *In progress*
-- **[Linux Journey Notes](https://github.com/BOYSABIO/linux-journey-notes)** — *In progress*
 
 </details>
 
