@@ -75,13 +75,13 @@ Three layers. Real infrastructure. Real data. Real inference.
 ---
 
 ### Huckleberry Habitat Suitability Model (Microsoft Capstone)
-**Enterprise ML + creative problem framing**
+**Enterprise ML, taken from notebook to deployed API**
 
-Challenge: *"Monetize Microsoft GridMET climate data."* Delivered a feasibility study predicting huckleberry habitat suitability for ecological and commercial stakeholders. ~450GB of environmental and location data, >90% accuracy, versioned artifacts, confidence outputs, and interactive habitat maps.
+Challenge: *"Monetize Microsoft GridMET climate data."* Delivered a feasibility study predicting huckleberry habitat suitability for ecological and commercial stakeholders. ~450GB of environmental and location data, >90% accuracy, versioned artifacts, confidence outputs, and interactive habitat maps. Awarded **honors**, Dean's List capstone.
 
-Awarded **honors**. Dean's List capstone.
+Extended (2026) into a live service: FastAPI `/predict` endpoint with per-tree confidence intervals, MLflow experiment tracking + model registry, a Dockerized API/MLflow stack, GitHub Actions CI, and a manual deploy to a Proxmox LXC on the same homelab as the security stack above — the model is now callable infrastructure, not just a notebook artifact.
 
-[🔗 Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)
+[🔗 Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Capstone-Microsoft)
 
 ---
 
@@ -116,7 +116,7 @@ Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver
 
 ### Machine Learning & AI
 
-- **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** — Microsoft-supported capstone; environmental ML predicting huckleberry habitat from ~450GB of GridMET climate data. Honors.
+- **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Capstone-Microsoft)** — Microsoft-supported capstone; environmental ML predicting huckleberry habitat from ~450GB of GridMET climate data. Honors. Deployed as a FastAPI service with MLflow model registry, Docker, and homelab hosting.
 - **[Predicting Hotel Cancellations](https://github.com/BOYSABIO/Hotel-Cancellations-Prediction-Model)** — Ensemble ML for booking cancellation prediction with feature engineering and optimization
 - **[CO₂ Emissions Forecast Model](https://github.com/BOYSABIO/CO2-Emission-Forecast-Model)** — Time-series forecasting of global flight CO₂ emissions using advanced statistical methods
 - **[Marketing Mix Model](https://github.com/BOYSABIO/Marketing-Mix-Model)** — Marketing attribution and ROI analysis using statistical modeling
