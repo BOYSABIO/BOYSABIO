@@ -67,7 +67,7 @@ OPNsense firewall, VLANs, Proxmox hypervisor, isolated malware testing environme
 **Layer 2 — [Network Monitoring & Traffic Analysis](https://github.com/BOYSABIO/Network-Monitoring)**  
 PCAP capture → flow feature extraction → ML/DL classifier (~80% accuracy on benign/malicious classification, multi-class attack detection) → clean ndjson output. Runs against the homelab. Data pipeline feeds Layer 3.
 
-**Layer 3 — SOC Triage Agent** *(private — in progress)*  
+**Layer 3 — [SOC Triage Agent](https://github.com/BOYSABIO/SOC-Triage-Agent)**  
 LangGraph multi-step agent. Ingests ndjson alerts from Layer 2, uses an LLM-backed reasoning loop to look up context, enrich, and produce structured triage decisions — reducing analyst toil on L1 work.
 
 Three layers. Real infrastructure. Real data. Real inference.
@@ -204,11 +204,8 @@ Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver
 
 <br>
 
-- **[Machine & Deep Learning Roadmap](https://github.com/BOYSABIO/Machine-Learning-Roadmap)** — Topic-by-topic ML mastery reference
 - **[Masters Data Science — IE University](https://github.com/BOYSABIO/IE-University)** — Academic projects and coursework
 - **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/CompTIA-SecurityPlus-Notes)** — *In progress*
-- **[OverTheWire Practice Notes](https://github.com/BOYSABIO/overthewire-notes)** — *In progress*
-- **[Linux Journey Notes](https://github.com/BOYSABIO/linux-journey-notes)** — *In progress*
 
 </details>
 
