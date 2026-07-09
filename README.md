@@ -211,29 +211,6 @@ Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver
 
 ---
 
-## GitHub activity
-
-<details>
-  <summary><b>📂 Stats</b></summary>
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BOYSABIO&theme=radical" alt="GitHub Streak Stats">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical" width="450px">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
-</p>
-
-</details>
-
----
-
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencersvedawood/)
