@@ -40,10 +40,9 @@ I spent roughly half my life in the US and half in Europe, which forced me to ad
 
 **Current focus**
 
-- SOC Triage Agent — LangGraph multi-step agent for security alert reasoning
-- Network Monitoring → SOC Agent — end-to-end security ML pipeline
-- AI product development — language learning platform in live pilot
-- Expanding agentic AI and multi-step reasoning depth
+- LLM-Lab — building the full model pipeline from scratch: data curation, pre-training, SFT, DPO, evals, inference optimization
+- ExamGuard — modular proctoring system for an institutional client: CV pipeline (YOLOv8 + MediaPipe), HITL review loop, fine-tuning feedback flywheel
+- Language Learning App — live AI product, pilot complete, iterating on real-user feedback
 
     </td>
   </tr>
@@ -108,14 +107,20 @@ Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver
 
 <br>
 
+### AI Products
+
+- **Language Learning App** *(live)* — AI-powered language learning platform built for tutors and their students. Full vocabulary system with morphology tracking, document editor with click-to-translate, teacher-student collaboration, and AI conversation practice. Built independently from idea to live deployment; currently post-pilot with a real tutor group. Stack: Next.js, TypeScript, Prisma, Neon, Vercel, Claude API.
+
 ### Security & Infrastructure
 
 - **[Homelab](https://github.com/BOYSABIO/homelab)** — OPNsense, VLANs, Proxmox, IDS/IPS, isolated malware testing. Foundation for the security ML stack.
 - **[Network Monitoring & Traffic Analysis Lab](https://github.com/BOYSABIO/Network-Monitoring)** — PCAP → flow features → ML/DL classifier → ndjson; feeds SOC Triage Agent
-- **SOC Triage Agent** *(private — in progress)* — LangGraph multi-step agent for security alert triage; consumes Network Monitoring output
+- **[SOC Triage Agent](https://github.com/BOYSABIO/SOC-Triage-Agent)** — LangGraph multi-step agent for security alert triage; consumes Network Monitoring output. MVP complete.
+- **ExamGuard** *(in development)* — modular proctoring layer for Safe Exam Browser: webcam-based detection (YOLOv8-nano + MediaPipe), ring-buffer clip upload, professor review dashboard, and a fine-tuning loop on labeled flags. Built for a real institutional client.
 
 ### Machine Learning & AI
 
+- **LLM-Lab** *(in development)* — personal implementation of the full model pipeline frontier labs run: data curation (dedup, quality filtering, data mixture), pre-training, SFT, DPO, Constitutional AI, evals (lm-evaluation-harness), and inference optimization (vLLM, quantization). Two-track approach: a proxy ladder (1M → 100M params) for fast ablations, and a main model (7B+) trained only on validated directions. Built to understand these systems from the inside, not just use the API.
 - **[Huckleberry Habitat Suitability Model](https://github.com/BOYSABIO/Capstone-Microsoft)** — Microsoft-supported capstone; environmental ML predicting huckleberry habitat from ~450GB of GridMET climate data. Honors. Deployed as a FastAPI service with MLflow model registry, Docker, and homelab hosting.
 - **[Predicting Hotel Cancellations](https://github.com/BOYSABIO/Hotel-Cancellations-Prediction-Model)** — Ensemble ML for booking cancellation prediction with feature engineering and optimization
 - **[CO₂ Emissions Forecast Model](https://github.com/BOYSABIO/CO2-Emission-Forecast-Model)** — Time-series forecasting of global flight CO₂ emissions using advanced statistical methods
@@ -206,29 +211,6 @@ Full-scale Shazam-inspired fingerprinting and matching system. Bronze → Silver
 
 - **[Masters Data Science — IE University](https://github.com/BOYSABIO/IE-University)** — Academic projects and coursework
 - **[CompTIA Security+ Study Notes](https://github.com/BOYSABIO/CompTIA-SecurityPlus-Notes)** — *In progress*
-
-</details>
-
----
-
-## GitHub activity
-
-<details>
-  <summary><b>📂 Stats</b></summary>
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BOYSABIO&theme=radical" alt="GitHub Streak Stats">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BOYSABIO&show_icons=true&theme=radical" width="450px">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BOYSABIO&layout=compact&theme=radical" width="450px">
-</p>
 
 </details>
 
