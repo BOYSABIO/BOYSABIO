@@ -4,10 +4,6 @@
 
 <img src="assets/tagline.svg" width="100%" alt="how hard could it be?"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-1a1b27?style=flat-square&logo=vercel&logoColor=white)](https://spencerwood-site.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencersvedawood/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:spencer@jsveda.com)
-
 </div>
 
 ---
