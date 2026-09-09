@@ -75,7 +75,7 @@ I run the technical side of a dog grooming salon — the site, the database, the
 A full product, built end to end and deployed: vocabulary tracking with morphology awareness, a document editor with click-to-translate, teacher–student collaboration, practice tools, analytics. Piloted with real tutors and students, now iterating on what they actually did with it. Private because it's a product rather than a portfolio piece — which is the point. Scoped it, built it, shipped it, put it in front of users, and learned the roadmap from them instead of guessing it.
 
 **ExamGuard**  ![private](https://img.shields.io/badge/private_by_design-414868?style=flat-square) ![client](https://img.shields.io/badge/institutional_client-7aa2f7?style=flat-square)
-A modular proctoring layer running alongside Safe Exam Browser. Client-side webcam inference — phone detection via YOLOv8, gaze estimation via MediaPipe, multi-person detection — producing timestamped flags with confidence scores. It never removes a student; it only flags. Ring-buffer clip upload keeps bandwidth sane, professors review and label in a dashboard, and those labels feed a fine-tuning loop. Built with a teammate. The repo is private deliberately: students must not be able to study how to defeat it.
+A modular proctoring layer running alongside Safe Exam Browser. Client-side webcam inference — phone detection, gaze estimation, multi-person detection — producing timestamped flags with confidence scores. It never removes a student; it only flags. Ring-buffer clip upload keeps bandwidth sane, professors review and label in a dashboard, and those labels feed a fine-tuning loop.
 
 </details>
 
