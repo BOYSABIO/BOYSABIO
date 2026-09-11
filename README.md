@@ -71,7 +71,7 @@ The brief was *"monetize Microsoft GridMET climate data."* I delivered a feasibi
 **[MuttMetrics](https://github.com/BOYSABIO/muttmetrics)**  ![live](https://img.shields.io/badge/live_business_·_in_build-22c55e?style=flat-square) ![stack](https://img.shields.io/badge/FastAPI_·_Postgres_·_SQLAlchemy_·_Alembic-1a1b27?style=flat-square)
 I run the technical side of a dog grooming salon — the site, the database, the backend, the interfaces the people there use, and the analytics on top. MuttMetrics is the layer underneath: owner and dog records, breed and service priors, and a model of how long the work really takes by breed, coat condition and service. On top of that sits the business view — where the day overruns, what an hour is actually worth by job type, what to charge, and how much the shop can take on. A groom that runs an hour long isn't a scheduling problem, it's a margin problem, and until it's measured nobody knows which jobs are paying for themselves.
 
-**Sveda**  ![private](https://img.shields.io/badge/private-414868?style=flat-square) ![live](https://img.shields.io/badge/live_·_post--pilot-22c55e?style=flat-square) ![stack](https://img.shields.io/badge/Next.js_·_TypeScript_·_Prisma_·_Vercel-1a1b27?style=flat-square)
+**Cveda**  ![private](https://img.shields.io/badge/private-414868?style=flat-square) ![live](https://img.shields.io/badge/live_·_post--pilot-22c55e?style=flat-square) ![stack](https://img.shields.io/badge/Next.js_·_TypeScript_·_Prisma_·_Vercel-1a1b27?style=flat-square)
 A full product, built end to end and deployed: vocabulary tracking with morphology awareness, a document editor with click-to-translate, teacher–student collaboration, practice tools, analytics. Piloted with real tutors and students, now iterating on what they actually did with it. Private because it's a product rather than a portfolio piece — which is the point. Scoped it, built it, shipped it, put it in front of users, and learned the roadmap from them instead of guessing it.
 
 **ExamGuard**  ![private](https://img.shields.io/badge/private_by_design-414868?style=flat-square) ![client](https://img.shields.io/badge/institutional_client-7aa2f7?style=flat-square)
@@ -88,7 +88,7 @@ A modular proctoring layer running alongside Safe Exam Browser. Client-side webc
 **Products**
 
 - **[MuttMetrics](https://github.com/BOYSABIO/muttmetrics)** — the data and prediction layer for a working dog grooming salon; capture-first design, Postgres + FastAPI
-- **Sveda** 🔒 — AI-assisted platform for tutors and students; Next.js, Prisma, Neon, Vercel
+- **Cveda** 🔒 — AI-assisted platform for tutors and students; Next.js, Prisma, Neon, Vercel
 - **ExamGuard** 🔒 — proctoring layer for Safe Exam Browser; YOLOv8 + MediaPipe, human-in-the-loop review, fine-tuning flywheel
 - **[Discord Music Bot](https://github.com/BOYSABIO/discord-music-bot)** — self-hosted; Lavalink v4, Riffy, Docker Compose, deployed to its own homelab container
 
