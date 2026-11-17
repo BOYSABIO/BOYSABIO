@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 196" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#11111b"/><stop offset="1" stop-color="#07070b"/></linearGradient>
+    <radialGradient id="g" cx="0.15" cy="0" r="0.9"><stop offset="0" stop-color="#7dcfff" stop-opacity="0.13"/><stop offset="1" stop-color="#7dcfff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="299" height="195" rx="12" fill="url(#bg)" stroke="#1f2335"/>
+  <rect x="0.5" y="0.5" width="299" height="195" rx="12" fill="url(#g)"/>
+  <circle cx="27" cy="34" r="4" fill="#7dcfff"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="38" y="38" font-size="11" font-weight="600" letter-spacing="1.5" fill="#7dcfff">PILOTED · ITERATING</text><text x="278" y="38" text-anchor="end" font-size="12" fill="#565f89">private</text>
+  <text x="22" y="70" font-size="22" font-weight="700" fill="#c0caf5">Cveda</text>
+  <text x="22" y="91" font-size="13" font-style="italic" fill="#7aa2f7">Language learning around your own texts</text>
+  <text x="22" y="112" font-size="13" fill="#a9b1d6">Morphology-aware vocabulary, click-to-</text><text x="22" y="131" font-size="13" fill="#a9b1d6">translate documents, and a shared</text><text x="22" y="150" font-size="13" fill="#a9b1d6">tutor–student workspace.</text>
+  <line x1="22" y1="160" x2="278" y2="160" stroke="#1f2335"/>
+  <text x="22" y="180" font-size="11" font-family="Consolas, SFMono-Regular, Menlo, monospace" fill="#565f89">Next.js · TypeScript · Prisma</text>
+</svg>
