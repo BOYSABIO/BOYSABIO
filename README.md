@@ -60,9 +60,9 @@ On the way I taught an AI to land a rocket, rebuilt Shazam from scratch, and map
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-tools.svg"><img src="assets/sec-tools-light.svg" width="100%" alt="05 · Toolbox"></picture>
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,r,pytorch,tensorflow,sklearn,fastapi,postgres,prisma&theme=dark"><img src="https://skillicons.dev/icons?i=py,ts,r,pytorch,tensorflow,sklearn,fastapi,postgres,prisma&theme=light" alt="Python, TypeScript, R, PyTorch, TensorFlow, scikit-learn, FastAPI, PostgreSQL, Prisma"></picture>
+<img src="https://skillicons.dev/icons?i=py,ts,r,pytorch,tensorflow,sklearn,fastapi,postgres,prisma&theme=dark" alt="Python, TypeScript, R, PyTorch, TensorFlow, scikit-learn, FastAPI, PostgreSQL, Prisma">
 <br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,githubactions,linux,azure,kafka,nextjs,react,nodejs,vercel&theme=dark"><img src="https://skillicons.dev/icons?i=docker,githubactions,linux,azure,kafka,nextjs,react,nodejs,vercel&theme=light" alt="Docker, GitHub Actions, Linux, Azure, Kafka, Next.js, React, Node.js, Vercel"></picture>
+<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,azure,kafka,nextjs,react,nodejs,vercel&theme=dark" alt="Docker, GitHub Actions, Linux, Azure, Kafka, Next.js, React, Node.js, Vercel">
 <br>
 <sub>plus LangGraph · Hugging Face · TRL · vLLM · MLflow · W&amp;B · PySpark · Databricks · Proxmox · OPNsense · Zeek · YOLOv8 · MediaPipe</sub>
 </p>
