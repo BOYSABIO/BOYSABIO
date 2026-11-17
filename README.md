@@ -1,10 +1,4 @@
-<div align="center">
-
-<img src="assets/header.svg" width="100%" alt="Spencer Wood — ML Engineer &amp; Builder"/>
-
-<img src="assets/tagline.svg" width="100%" alt="how hard could it be?"/>
-
-</div>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/header.svg"><img src="assets/header-light.svg" width="100%" alt="Spencer Wood — ML Engineer &amp; Builder. how hard could it be? The loop: break, understand, rebuild."></picture>
 
 I've been taking things apart since I was a kid. I fried the motherboard of my first PC at 10, rebuilt it out of necessity, and that loop — break → understand → rebuild — never really stopped.
 
@@ -14,13 +8,13 @@ On the way I taught an AI to land a rocket, rebuilt Shazam from scratch, and map
 
 <br>
 
-<img src="assets/sec-now.svg" width="100%" alt="01 · Now"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-now.svg"><img src="assets/sec-now-light.svg" width="100%" alt="01 · Now"></picture>
 
-<div align="center">
-<a href="https://github.com/BOYSABIO/muttmetrics"><img src="assets/card-muttmetrics.svg" width="32%" alt="MuttMetrics — in production. The data layer for a dog-grooming business."/></a>
-<img src="assets/card-cveda.svg" width="32%" alt="Cveda — piloted, iterating. Private language-learning platform."/>
-<img src="assets/card-examguard.svg" width="32%" alt="ExamGuard — client project, ML phase. Proctoring that flags, never removes."/>
-</div>
+<p align="center">
+<a href="https://github.com/BOYSABIO/muttmetrics"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-muttmetrics.svg"><img src="assets/card-muttmetrics-light.svg" width="32%" alt="MuttMetrics — in production. How long does a groom really take? FastAPI, Postgres, React."></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-cveda.svg"><img src="assets/card-cveda-light.svg" width="32%" alt="Cveda — piloted, iterating. Private. Language learning around your own texts. Next.js, TypeScript, Prisma."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-examguard.svg"><img src="assets/card-examguard-light.svg" width="32%" alt="ExamGuard — client project, ML phase. Private. Proctoring that flags, never removes."></picture>
+</p>
 
 <details>
 <summary><sub>The longer version of all three</sub></summary>
@@ -36,48 +30,42 @@ On the way I taught an AI to land a rocket, rebuilt Shazam from scratch, and map
 
 <br>
 
-<img src="assets/sec-stack.svg" width="100%" alt="02 · The stack I own"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-stack.svg"><img src="assets/sec-stack-light.svg" width="100%" alt="02 · The stack I own"></picture>
 
-<img src="assets/stack-pipeline.svg" width="100%" alt="Homelab → Network Monitoring → SOC Triage Agent; MuttMetrics, the Huckleberry API and a Discord bot also run on the homelab"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-pipeline.svg"><img src="assets/stack-pipeline-light.svg" width="100%" alt="Homelab → Network Monitoring (95% accuracy, 0.992 ROC-AUC) → SOC Triage Agent. MuttMetrics, the Huckleberry prediction API and a Discord music bot also run on the homelab."></picture>
 
 **[Homelab](https://github.com/BOYSABIO/homelab)** · **[Network Monitoring](https://github.com/BOYSABIO/Network-Monitoring)** · **[SOC Triage Agent](https://github.com/BOYSABIO/SOC-Triage-Agent)** — three repos, one system, each built because the one below it made it possible. The homelab doubles as the deployment target for everything above. The interesting problem in the agent isn't security, it's architecture: when to gate, what context to fetch, how to make a model's output land as a decision rather than a paragraph.
 
 <br>
 
-<img src="assets/sec-shipped.svg" width="100%" alt="03 · Shipped"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-shipped.svg"><img src="assets/sec-shipped-light.svg" width="100%" alt="03 · Shipped"></picture>
 
-- **[Huckleberry Habitat Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** &nbsp;<sub>Microsoft capstone · honors</sub><br>
-  The brief was *"monetize Microsoft GridMET climate data."* ~450GB of environmental data became a >90%-accuracy habitat model, then a service you can call: FastAPI `/predict` with per-tree confidence intervals, an MLflow registry, Docker, CI, hosted on the homelab.
-
-- **[Audio Fingerprinting](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)** &nbsp;<sub>Shazam, rebuilt</sub><br>
-  Bronze → Silver → Gold lakehouse on Databricks, PySpark fingerprint hashing, confidence-scored matching.
-
-- **[Screen Snooper Detection](https://github.com/BOYSABIO/Screen-Snooper-Detection)** &nbsp;<sub>computer vision</sub><br>
-  Catches someone reading over your shoulder in real time: YOLOv8 + MediaPipe gaze, a custom dataset labeled with Grounding DINO, primary-user exclusion.
-
-- **[Modular MLOps Pipeline](https://github.com/BOYSABIO/MLOps)** &nbsp;<sub>where production started</sub><br>
-  A simple CNN rebuilt as a production system: modular steps, Hydra config, MLflow + W&B, containerized FastAPI serving, pytest and CI.
+<p align="center">
+<a href="https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ship-huckleberry.svg"><img src="assets/ship-huckleberry-light.svg" width="49%" alt="Huckleberry Habitat Model — Microsoft capstone, honors. ~450GB of climate data became a >90%-accuracy habitat model, then a FastAPI service with MLflow, Docker and CI."></picture></a>
+<a href="https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ship-audio.svg"><img src="assets/ship-audio-light.svg" width="49%" alt="Audio Fingerprinting — Shazam, rebuilt. Bronze → Silver → Gold lakehouse on Databricks with PySpark fingerprint hashing and confidence-scored matching."></picture></a>
+</p>
+<p align="center">
+<a href="https://github.com/BOYSABIO/Screen-Snooper-Detection"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ship-snooper.svg"><img src="assets/ship-snooper-light.svg" width="49%" alt="Screen Snooper Detection — catches someone reading over your shoulder. YOLOv8, MediaPipe gaze, a custom dataset labeled with Grounding DINO."></picture></a>
+<a href="https://github.com/BOYSABIO/MLOps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ship-mlops.svg"><img src="assets/ship-mlops-light.svg" width="49%" alt="Modular MLOps Pipeline — a simple CNN rebuilt as a production system: Hydra, MLflow + W&amp;B, FastAPI serving, pytest and CI."></picture></a>
+</p>
 
 <br>
 
-<img src="assets/sec-parked.svg" width="100%" alt="04 · Parked"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-parked.svg"><img src="assets/sec-parked-light.svg" width="100%" alt="04 · Parked"></picture>
 
-**LLM-Lab** 🔒 &nbsp;![parked](https://img.shields.io/badge/parked_·_Nov_2026-414868?style=flat-square)<br>
-The pipeline the frontier labs run, rebuilt to understand it from the inside: data curation → pre-training → SFT → DPO → evals → inference optimization. Designed end to end, with a proxy ladder (1M → 100M params) for cheap ablations before anything big gets trained. It reached a working nanoGPT, then I parked it — it's the first one back when a slot frees.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-llmlab.svg"><img src="assets/card-llmlab-light.svg" width="100%" alt="LLM-Lab — private, parked November 2026. The pipeline the frontier labs run, rebuilt to understand it from the inside: data curation → pre-training → SFT → DPO → evals → inference. Designed end to end; reached a working nanoGPT. First one back when a slot frees."></picture>
 
 <br>
 
-<img src="assets/sec-tools.svg" width="100%" alt="05 · Toolbox"/>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sec-tools.svg"><img src="assets/sec-tools-light.svg" width="100%" alt="05 · Toolbox"></picture>
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,ts,r,pytorch,tensorflow,sklearn,fastapi,postgres,prisma&theme=dark" alt="Python, TypeScript, R, PyTorch, TensorFlow, scikit-learn, FastAPI, PostgreSQL, Prisma"/>
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,r,pytorch,tensorflow,sklearn,fastapi,postgres,prisma&theme=dark"><img src="https://skillicons.dev/icons?i=py,ts,r,pytorch,tensorflow,sklearn,fastapi,postgres,prisma&theme=light" alt="Python, TypeScript, R, PyTorch, TensorFlow, scikit-learn, FastAPI, PostgreSQL, Prisma"></picture>
 <br>
-<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,azure,kafka,nextjs,react,nodejs,vercel&theme=dark" alt="Docker, GitHub Actions, Linux, Azure, Kafka, Next.js, React, Node.js, Vercel"/>
-
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,githubactions,linux,azure,kafka,nextjs,react,nodejs,vercel&theme=dark"><img src="https://skillicons.dev/icons?i=docker,githubactions,linux,azure,kafka,nextjs,react,nodejs,vercel&theme=light" alt="Docker, GitHub Actions, Linux, Azure, Kafka, Next.js, React, Node.js, Vercel"></picture>
+<br>
 <sub>plus LangGraph · Hugging Face · TRL · vLLM · MLflow · W&amp;B · PySpark · Databricks · Proxmox · OPNsense · Zeek · YOLOv8 · MediaPipe</sub>
-
-</div>
+</p>
 
 <details>
 <summary><sub><b>The full list</b></sub></summary>
