@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 182" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"><style>.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<rect x="0.5" y=".5" width="279" height="119" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+<text class="m" x="18" y="27" font-size="11" letter-spacing="2" fill="#0969da">LAYER 1</text>
+<text x="18" y="56" font-size="20" font-weight="600" fill="#1f2328">Homelab</text>
+<text x="18" y="82" font-size="13.5" fill="#656d76">OPNsense · VLANs · Proxmox</text>
+<text x="18" y="103" font-size="13.5" fill="#656d76">isolated malware segment</text>
+<rect x="310.5" y=".5" width="279" height="119" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+<text class="m" x="328" y="27" font-size="11" letter-spacing="2" fill="#1b7c83">LAYER 2</text>
+<text x="328" y="56" font-size="20" font-weight="600" fill="#1f2328">Network Monitoring</text>
+<text x="328" y="82" font-size="13.5" fill="#656d76">PCAP → flow features → classifier</text>
+<text x="328" y="103" font-size="13.5" fill="#1a7f37">95% acc · 0.992 ROC-AUC</text>
+<rect x="620.5" y=".5" width="279" height="119" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+<text class="m" x="638" y="27" font-size="11" letter-spacing="2" fill="#8250df">LAYER 3</text>
+<text x="638" y="56" font-size="20" font-weight="600" fill="#1f2328">SOC Triage Agent</text>
+<text x="638" y="82" font-size="13.5" fill="#656d76">LangGraph reasoning loop</text>
+<text x="638" y="103" font-size="13.5" fill="#656d76">tools in, a verdict out</text>
+<path d="M285 60h18m-5-5 5 5-5 5" fill="none" stroke="#8c959f" stroke-width="1.5"/><circle cx="285" cy="60" r="2.5" fill="#0969da"><animate attributeName="cx" from="283" to="305" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
+<path d="M595 60h18m-5-5 5 5-5 5" fill="none" stroke="#8c959f" stroke-width="1.5"/><circle cx="595" cy="60" r="2.5" fill="#0969da"><animate attributeName="cx" from="593" to="615" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
+<path d="M140 120v18" stroke="#8c959f" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x=".5" y="138.5" width="899" height="43" rx="8" fill="none" stroke="#d0d7de"/>
+<text class="m" x="18" y="165" font-size="11" letter-spacing="1.5" fill="#8c959f">ALSO RUNS ON IT</text>
+<text x="168" y="165" font-size="14" fill="#1f2328">MuttMetrics<tspan dx="10" fill="#8c959f">·</tspan><tspan dx="10">Huckleberry prediction API</tspan><tspan dx="10" fill="#8c959f">·</tspan><tspan dx="10">Discord music bot</tspan></text>
+</svg>

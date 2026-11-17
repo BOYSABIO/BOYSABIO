@@ -1,34 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 232" font-family="Segoe UI, Helvetica, Arial, sans-serif">
-<rect x="0.5" y="0.5" width="899" height="231" rx="14" fill="#07070b" stroke="#1f2335"/>
-<g>
-  <rect x="20" y="20" width="260" height="128" rx="12" fill="#0b0b12" stroke="#7aa2f7" stroke-opacity="0.45"/>
-  <text x="38" y="46" font-size="11" letter-spacing="2" font-family="Consolas, SFMono-Regular, Menlo, monospace" fill="#7aa2f7">LAYER 1</text>
-  <text x="38" y="74" font-size="19" font-weight="700" fill="#c0caf5">Homelab</text>
-  <text x="38" y="102" font-size="13" fill="#a9b1d6">OPNsense · VLANs · Proxmox</text>
-  <text x="38" y="124" font-size="13" fill="#a9b1d6">isolated malware segment</text>
-</g>
-<g>
-  <rect x="320" y="20" width="260" height="128" rx="12" fill="#0b0b12" stroke="#7dcfff" stroke-opacity="0.45"/>
-  <text x="338" y="46" font-size="11" letter-spacing="2" font-family="Consolas, SFMono-Regular, Menlo, monospace" fill="#7dcfff">LAYER 2</text>
-  <text x="338" y="74" font-size="19" font-weight="700" fill="#c0caf5">Network Monitoring</text>
-  <text x="338" y="102" font-size="13" fill="#a9b1d6">PCAP → flow features → classifier</text>
-  <text x="338" y="124" font-size="13" fill="#9ece6a">95% acc · 0.992 ROC-AUC</text>
-</g>
-<g>
-  <rect x="620" y="20" width="260" height="128" rx="12" fill="#0b0b12" stroke="#bb9af7" stroke-opacity="0.45"/>
-  <text x="638" y="46" font-size="11" letter-spacing="2" font-family="Consolas, SFMono-Regular, Menlo, monospace" fill="#bb9af7">LAYER 3</text>
-  <text x="638" y="74" font-size="19" font-weight="700" fill="#c0caf5">SOC Triage Agent</text>
-  <text x="638" y="102" font-size="13" fill="#a9b1d6">LangGraph reasoning loop</text>
-  <text x="638" y="124" font-size="13" fill="#a9b1d6">tools in, a verdict out</text>
-</g>
-<line x1="284" y1="84" x2="314" y2="84" stroke="#414868" stroke-width="2"/>
-<path d="M310 79 L317 84 L310 89" fill="none" stroke="#414868" stroke-width="2"/>
-<circle cx="284" cy="84" r="3" fill="#7dcfff"><animate attributeName="cx" from="284" to="314" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
-<line x1="584" y1="84" x2="614" y2="84" stroke="#414868" stroke-width="2"/>
-<path d="M610 79 L617 84 L610 89" fill="none" stroke="#414868" stroke-width="2"/>
-<circle cx="584" cy="84" r="3" fill="#7dcfff"><animate attributeName="cx" from="584" to="614" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
-<path d="M150 148 L150 172" stroke="#414868" stroke-width="2" stroke-dasharray="3 4"/>
-<rect x="20" y="172" width="860" height="40" rx="10" fill="#0b0b12" stroke="#1f2335"/>
-<text x="38" y="197" font-size="12" letter-spacing="1.5" font-family="Consolas, SFMono-Regular, Menlo, monospace" fill="#565f89">ALSO RUNS ON IT</text>
-<text x="180" y="197" font-size="14" fill="#c0caf5">MuttMetrics  <tspan fill="#414868">·</tspan>  Huckleberry prediction API  <tspan fill="#414868">·</tspan>  Discord music bot</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 182" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"><style>.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<rect x="0.5" y=".5" width="279" height="119" rx="8" fill="#161b22" stroke="#30363d"/>
+<text class="m" x="18" y="27" font-size="11" letter-spacing="2" fill="#58a6ff">LAYER 1</text>
+<text x="18" y="56" font-size="20" font-weight="600" fill="#e6edf3">Homelab</text>
+<text x="18" y="82" font-size="13.5" fill="#8b949e">OPNsense · VLANs · Proxmox</text>
+<text x="18" y="103" font-size="13.5" fill="#8b949e">isolated malware segment</text>
+<rect x="310.5" y=".5" width="279" height="119" rx="8" fill="#161b22" stroke="#30363d"/>
+<text class="m" x="328" y="27" font-size="11" letter-spacing="2" fill="#39c5cf">LAYER 2</text>
+<text x="328" y="56" font-size="20" font-weight="600" fill="#e6edf3">Network Monitoring</text>
+<text x="328" y="82" font-size="13.5" fill="#8b949e">PCAP → flow features → classifier</text>
+<text x="328" y="103" font-size="13.5" fill="#3fb950">95% acc · 0.992 ROC-AUC</text>
+<rect x="620.5" y=".5" width="279" height="119" rx="8" fill="#161b22" stroke="#30363d"/>
+<text class="m" x="638" y="27" font-size="11" letter-spacing="2" fill="#a371f7">LAYER 3</text>
+<text x="638" y="56" font-size="20" font-weight="600" fill="#e6edf3">SOC Triage Agent</text>
+<text x="638" y="82" font-size="13.5" fill="#8b949e">LangGraph reasoning loop</text>
+<text x="638" y="103" font-size="13.5" fill="#8b949e">tools in, a verdict out</text>
+<path d="M285 60h18m-5-5 5 5-5 5" fill="none" stroke="#6e7681" stroke-width="1.5"/><circle cx="285" cy="60" r="2.5" fill="#58a6ff"><animate attributeName="cx" from="283" to="305" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
+<path d="M595 60h18m-5-5 5 5-5 5" fill="none" stroke="#6e7681" stroke-width="1.5"/><circle cx="595" cy="60" r="2.5" fill="#58a6ff"><animate attributeName="cx" from="593" to="615" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
+<path d="M140 120v18" stroke="#6e7681" stroke-width="1.5" stroke-dasharray="2 4"/>
+<rect x=".5" y="138.5" width="899" height="43" rx="8" fill="none" stroke="#30363d"/>
+<text class="m" x="18" y="165" font-size="11" letter-spacing="1.5" fill="#6e7681">ALSO RUNS ON IT</text>
+<text x="168" y="165" font-size="14" fill="#e6edf3">MuttMetrics<tspan dx="10" fill="#6e7681">·</tspan><tspan dx="10">Huckleberry prediction API</tspan><tspan dx="10" fill="#6e7681">·</tspan><tspan dx="10">Discord music bot</tspan></text>
 </svg>

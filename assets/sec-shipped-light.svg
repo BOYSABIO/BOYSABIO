@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 42" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"><style>.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<text class="m" x="2" y="25" font-size="14" fill="#0969da">03</text>
+<text x="36" y="25" font-size="16" font-weight="600" letter-spacing="2.5" fill="#1f2328">SHIPPED</text>
+<text x="898" y="25" text-anchor="end" font-size="14" fill="#656d76">trained, then deployed</text>
+<line x1="0" y1="41.5" x2="900" y2="41.5" stroke="#d0d7de"/>
+</svg>

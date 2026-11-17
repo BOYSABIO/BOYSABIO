@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"><style>.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}</style>
+<rect x=".5" y=".5" width="299" height="209" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+<circle cx="22" cy="27" r="4" fill="#9a6700"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<text class="m" x="33" y="31" font-size="10.5" letter-spacing="1" fill="#9a6700">CLIENT · ML PHASE</text><text x="282" y="31" text-anchor="end" font-size="11" fill="#8c959f">private</text>
+<text x="18" y="64" font-size="24" font-weight="600" fill="#1f2328">ExamGuard</text>
+<text x="18" y="86" font-size="13" fill="#656d76">Proctoring that flags, never removes</text>
+<text class="m" x="18" y="110" font-size="9.5" letter-spacing=".8" fill="#8c959f">FLAGGED FOR REVIEW</text><line x1="18" y1="150" x2="282" y2="150" stroke="#d0d7de" stroke-width="2"/><text class="m" x="18" y="166" font-size="9.5" fill="#8c959f">start</text><text class="m" x="282" y="166" text-anchor="end" font-size="9.5" fill="#8c959f">end</text><path d="M84 150V124h14l-4 5 4 5H84" fill="#9a6700" fill-opacity=".25" stroke="#9a6700" stroke-width="1.5" stroke-linejoin="round"/><circle cx="84" cy="150" r="3" fill="#9a6700"></circle><path d="M150 150V124h14l-4 5 4 5H150" fill="#9a6700" fill-opacity=".25" stroke="#9a6700" stroke-width="1.5" stroke-linejoin="round"/><circle cx="150" cy="150" r="3" fill="#9a6700"></circle><path d="M236 150V124h14l-4 5 4 5H236" fill="#9a6700" fill-opacity=".25" stroke="#9a6700" stroke-width="1.5" stroke-linejoin="round"/><circle cx="236" cy="150" r="3" fill="#9a6700"><animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/></circle>
+<line x1="18" y1="178" x2="282" y2="178" stroke="#d0d7de"/>
+<text class="m" x="18" y="196" font-size="10.5" fill="#8c959f">Computer vision · FastAPI · React</text>
+</svg>
