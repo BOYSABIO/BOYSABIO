@@ -46,18 +46,23 @@ On the way I taught an AI to land a rocket, rebuilt Shazam from scratch, and map
 
 <img src="assets/sec-shipped.svg" width="100%" alt="03 · Shipped"/>
 
-| | |
-|---|---|
-| **[Huckleberry Habitat Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** <br><sub>Microsoft capstone · honors</sub> | The brief was *"monetize Microsoft GridMET climate data."* ~450GB of environmental data became a >90%-accuracy habitat model, then a service you can call: FastAPI `/predict` with per-tree confidence intervals, an MLflow registry, Docker, CI, hosted on the homelab. |
-| **[Audio Fingerprinting](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)** <br><sub>Shazam, rebuilt</sub> | Bronze → Silver → Gold lakehouse on Databricks, PySpark fingerprint hashing, confidence-scored matching. |
-| **[Screen Snooper Detection](https://github.com/BOYSABIO/Screen-Snooper-Detection)** <br><sub>computer vision</sub> | Catches someone reading over your shoulder in real time: YOLOv8 + MediaPipe gaze, a custom dataset labeled with Grounding DINO, primary-user exclusion. |
-| **[Modular MLOps Pipeline](https://github.com/BOYSABIO/MLOps)** <br><sub>where production started</sub> | A simple CNN rebuilt as a production system: modular steps, Hydra config, MLflow + W&B, containerized FastAPI serving, pytest and CI. |
+- **[Huckleberry Habitat Model](https://github.com/BOYSABIO/Huckleberry-Habitat-Suitability-Model)** &nbsp;<sub>Microsoft capstone · honors</sub><br>
+  The brief was *"monetize Microsoft GridMET climate data."* ~450GB of environmental data became a >90%-accuracy habitat model, then a service you can call: FastAPI `/predict` with per-tree confidence intervals, an MLflow registry, Docker, CI, hosted on the homelab.
+
+- **[Audio Fingerprinting](https://github.com/BOYSABIO/Audio-Fingerprinting-Matching-Pipeline)** &nbsp;<sub>Shazam, rebuilt</sub><br>
+  Bronze → Silver → Gold lakehouse on Databricks, PySpark fingerprint hashing, confidence-scored matching.
+
+- **[Screen Snooper Detection](https://github.com/BOYSABIO/Screen-Snooper-Detection)** &nbsp;<sub>computer vision</sub><br>
+  Catches someone reading over your shoulder in real time: YOLOv8 + MediaPipe gaze, a custom dataset labeled with Grounding DINO, primary-user exclusion.
+
+- **[Modular MLOps Pipeline](https://github.com/BOYSABIO/MLOps)** &nbsp;<sub>where production started</sub><br>
+  A simple CNN rebuilt as a production system: modular steps, Hydra config, MLflow + W&B, containerized FastAPI serving, pytest and CI.
 
 <br>
 
 <img src="assets/sec-parked.svg" width="100%" alt="04 · Parked"/>
 
-**LLM-Lab** 🔒 &nbsp;![parked](https://img.shields.io/badge/parked_·_Nov_2026-414868?style=flat-square)
+**LLM-Lab** 🔒 &nbsp;![parked](https://img.shields.io/badge/parked_·_Nov_2026-414868?style=flat-square)<br>
 The pipeline the frontier labs run, rebuilt to understand it from the inside: data curation → pre-training → SFT → DPO → evals → inference optimization. Designed end to end, with a proxy ladder (1M → 100M params) for cheap ablations before anything big gets trained. It reached a working nanoGPT, then I parked it — it's the first one back when a slot frees.
 
 <br>
